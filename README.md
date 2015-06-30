@@ -1,11 +1,18 @@
-## Darkmate based on One Dark Syntax theme
+# Darkmate theme for Atom Editor (based on One Dark Syntax)
 
-![one-dark-syntax](https://cloud.githubusercontent.com/assets/378023/7783203/49271ef6-0174-11e5-8eb1-d80b8d34a0e3.png)
+A monokai -ish syntax theme for Atom.
 
-> The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
+![darkmate](https://cloud.githubusercontent.com/assets/8074/3391326/f39466fe-fca8-11e3-8a2a-4604300aecba.png)
 
-There is also a matching [UI theme](https://atom.io/themes/one-dark-ui).
+A port inspired by [Darkmate for Gedit](http://grigio.org/colori_leggibili_tema_scuro_gedit) .
 
-### Install
+Puts the lines below in your stylesheet to have a bold font and use *Infinality* to enable a better font rendering on Linux.
 
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.
+```css
+.editor {
+  font-weight: bold;
+}
+```
+
+Originally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)
+theme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).
